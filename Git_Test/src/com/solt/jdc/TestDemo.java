@@ -5,6 +5,15 @@ public class TestDemo {
 	private int age;
 	private String address;
 	private String grade;
+	private int rollno;
+
+	public int getRollno() {
+		return rollno;
+	}
+
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
 
 	public String getName() {
 		return name;
