@@ -6,6 +6,15 @@ public class TestDemo {
 	private String address;
 	private String grade;
 	private int rollno;
+	private String gf;
+
+	public String getGf() {
+		return gf;
+	}
+
+	public void setGf(String gf) {
+		this.gf = gf;
+	}
 
 	public int getRollno() {
 		return rollno;
